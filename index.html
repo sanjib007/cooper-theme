@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap New Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
+
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="row">
+<header class="navbar navbar-fixed-top">
+    <div class="head_top">
+        <div class="navbar1 navbar-inverse">
+            <div class="container">
+                <div class="col-md-4">
+                    <ul class="head_top_list">
+                        <li><span><i class="glyphicon glyphicon-phone"></i> 0191919191 </span></li>
+                        <li><span><i class="glyphicon glyphicon-phone"></i> 0191919191 </span></li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <ul class="head_top_list">
+                        <li>
+                            <span class="language_selector">Choose Language <i class="caret"></i></span>
+                            <ul class="languages">
+                                <li><a href="/en">English</a></li>
+                                <li><a href="/de">Deutsch</a></li>
+                                <li><a href="/bd">Bangla</a></li>
+                                <li><a href="/hi">Hinde</a></li>
+                            </ul>
+                        </li>
+                        <li><span> <i class="glyphicon glyphicon-phone"></i> Sign in/Registration </span></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class=" social-nav">
+                        <ul class="nav nav-pills">
+                            <li><a class="btn btn-social-icon"><i class="fa fa-twitter fa-stack-1x"></i></a></li>
+                            <li><a class="btn btn-social-icon"><i class="fa fa-facebook fa-stack-1x"></i></a></li>
+                            <li><a class="btn btn-social-icon"><i class="fa fa-google-plus fa-stack-1x"></i></a></li>
+                            <li><a class="btn btn-social-icon"><i class="fa fa-linkedin fa-stack-1x"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo.png"/> </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
+                            About <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#">My Account</a></li>
+                            <li class="divider"></li>
+                            <li><a tabindex="-1" href="#">Change Email</a></li>
+                            <li><a tabindex="-1" href="#">Change Password</a></li>
+                            <li class="divider"></li>
+                            <li><a tabindex="-1" href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">
+                            Page <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#">My Account</a></li>
+                            <li class="divider"></li>
+                            <li><a tabindex="-1" href="#">Change Email</a></li>
+                            <li><a tabindex="-1" href="#">Change Password</a></li>
+                            <li class="divider"></li>
+                            <li><a tabindex="-1" href="#">Logout</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <span class="badge">42</span></a></li>
+                    <li>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</header>
+</div>
+<header id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for Slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <!-- Set the first background image using inline CSS below. -->
+            <div class="fill" style="background-image:url('https://placeholdit.imgix.net/~text?txtsize=158&txt=Slide+One&w=1900&h=1080')"></div>
+            <div class="carousel-caption">
+                <h2>Caption 1</h2>
+            </div>
+        </div>
+        <div class="item">
+            <!-- Set the second background image using inline CSS below. -->
+            <div class="fill" style="background-image:url('https://placeholdit.imgix.net/~text?txtsize=158&txt=Slide+Two&w=1900&h=1080')"></div>
+            <div class="carousel-caption">
+                <h2>Caption 2</h2>
+            </div>
+        </div>
+        <div class="item">
+            <!-- Set the third background image using inline CSS below. -->
+            <div class="fill" style="background-image:url('https://placeholdit.imgix.net/~text?txtsize=158&txt=Slide+Three&w=1900&h=1080')"></div>
+            <div class="carousel-caption">
+                <h2>Caption 3</h2>
+            </div>
+        </div>
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</header>
+<section>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                <h4 class="service-heading">E-Commerce</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+            <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                <h4 class="service-heading">Responsive Design</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+            <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                <h4 class="service-heading">Web Security</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Recent Work</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <img src="img/button_boder.png" style="margin-bottom: 55px;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ol class="breadcrumb text-center">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li>Data</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                <h4 class="service-heading">E-Commerce</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+            <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                <h4 class="service-heading">Responsive Design</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+            <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                <h4 class="service-heading">Web Security</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="no-padding" id="portfolio">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <div class="col-md-4 col-sm-6">
+                <a href="#" class="portfolio-box">
+                    <img src="img/1.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#" class="portfolio-box">
+                    <img src="img/2.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#" class="portfolio-box">
+                    <img src="img/3.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#" class="portfolio-box">
+                    <img src="img/4.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#" class="portfolio-box">
+                    <img src="img/5.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="#" class="portfolio-box">
+                    <img src="img/6.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background: #fafafa;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Last Blog Post</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <img src="img/button_boder.png" style="margin-bottom: 55px;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <div class="col-md-6">
+                            <p>5 May 2015</p>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <p>By Admin</p>
+                        </div>
+                    </div>
+                    <img src="img/thumbnail1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <div class="col-md-6">
+                            <p>5 May 2015</p>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <p>By Admin</p>
+                        </div>
+                    </div>
+                    <img src="img/thumbnail2.jpg" alt="...">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <div class="col-md-6">
+                            <p>5 May 2015</p>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <p>By Admin</p>
+                        </div>
+                    </div>
+                    <img src="img/thumbnail3.jpg" alt="...">
+                    <div class="caption">
+                        <h3>Thumbnail label</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center"><a href="#" class="btn btn-danger" role="button">View Post</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background-color: #e94b29;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="color: #FFFFFF;">Some Intersting Stuffs</h2>
+                <h3 class="section-subheading text-muted" style="color: #FFFFFF;">Lorem ipsum dolor sit amet consectetur.</h3>
+                <img src="img/button_boder_white.png" style="margin-bottom: 55px;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Add something</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Our Team</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <img src="img/button_boder.png" style="margin-bottom: 55px;">
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5>SEAN GARES</h5>
+                    </div>
+                    <div class="col-md-12">
+                        <p>Founder</p>
+                    </div>
+                    <div class="col-md-12">
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <img src="img/man1.jpg" alt="Sean Gares">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5>SEAN GARES</h5>
+                    </div>
+                    <div class="col-md-12">
+                        <p>Founder</p>
+                    </div>
+                    <div class="col-md-12">
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <img src="img/man2.jpg" alt="Sean Gares">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5>SEAN GARES</h5>
+                    </div>
+                    <div class="col-md-12">
+                        <p>Founder</p>
+                    </div>
+                    <div class="col-md-12">
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12">
+                        <img src="img/man3.jpg" alt="Sean Gares">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section style="background-color: #122b40;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="color: #FFFFFF;">Our Client</h2>
+                <h3 class="section-subheading text-muted" style="color: #FFFFFF;">Lorem ipsum dolor sit amet consectetur.</h3>
+                <img src="img/button_boder_white.png" style="margin-bottom: 55px;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 center-pills">
+                <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#"><img src="img/client1.jpg"></a></li>
+                    <li role="presentation"><a href="#"><img src="img/client2.jpg"></a></li>
+                    <li role="presentation"><a href="#"><img src="img/client3.jpg"></a></li>
+                    <li role="presentation"><a href="#"><img src="img/client4.jpg"></a></li>
+                    <li role="presentation"><a href="#"><img src="img/client5.jpg"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="hr_border" style="background-color: #242424; color: #FFFFFF;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="img/logo.png">
+                    </div>
+                    <div class="col-md-12">
+                        <p>
+                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                        </p>
+                        <a href="#">Read More....</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5>Recent Post</h5>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="media">
+                            <div class="media-left media-heading">
+                                <a href="#">
+                                    <img class="media-object" src="http://placehold.it/70x70" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta</p>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="media">
+                            <div class="media-left media-heading">
+                                <a href="#">
+                                    <img class="media-object" src="http://placehold.it/70x70" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta</p>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="media">
+                            <div class="media-left media-heading">
+                                <a href="#">
+                                    <img class="media-object" src="http://placehold.it/70x70" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta</p>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12">
+                    <h5>Tiwtter Comments</h5>
+                </div>
+                <div class="col-md-12">
+                    <div class="media">
+                        <div class="media-left media-heading">
+                            <a href="#">
+                                <img class="media-object" src="http://placehold.it/20x20" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta</p>
+                            <p style="color: #1087dd;">20 May 2015</p>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="media">
+                        <div class="media-left media-heading">
+                            <a href="#">
+                                <img class="media-object" src="http://placehold.it/20x20" alt="...">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta</p>
+                            <p style="color: #1087dd;">20 May 2015</p>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        <address>
+                            <strong><i class="fa fa-home" style="margin-right: 10px;"></i> Address :</strong><br><br>
+                            795 Folsom Ave, Suite 600<br>
+                            San Francisco, CA 94107<br>
+                            <abbr title="Phone">P:</abbr> (123) 456-7890
+                        </address>
+                        <hr>
+                        <address>
+                            <strong><i class="fa fa-home" style="margin-right: 10px;"></i> Phone :</strong><br><br>
+                            +88 01756397427<br>
+                            +88 01913455445<br>
+                            <abbr title="Phone">P:</abbr> (123) 456-7890
+                        </address>
+                        <hr>
+                        <address>
+                            <strong><i class="fa fa-home" style="margin-right: 10px;"></i> Email :</strong><br><br>
+                            <a href="mailto:#">tapos@r-cis.com</a><br>
+                            <a href="mailto:#">sanjib@r-cis.com</a>
+                        </address>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section style="background-color: #000000;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 text-left">
+                <p>Copyright@ 2015 Design by Tapos</p>
+            </div>
+            <div class="col-md-6 text-right">
+                <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#">Home</a></li>
+                    <li role="presentation"><a href="#">Page</a></li>
+                    <li role="presentation"><a href="#">Blog</a></li>
+                    <li role="presentation"><a href="#">Shop</a></li>
+                    <li role="presentation"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/cbpAnimatedHeader.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/bootstrap-hover-dropdown.js"></script>
+<script src="js/agency.js"></script>
+<script>
+    $(document).ready(function(){
+        var trigger = $('.language_selector');
+        var list = $('.languages');
+
+        trigger.click(function() {
+            trigger.toggleClass('active');
+            list.slideToggle(200);
+        });
+
+        // this is optional to close the list while the new page is loading
+        list.click(function() {
+            trigger.click();
+        });
+
+        $('.carousel').carousel({
+            interval: 5000 //changes the speed
+        });
+
+        $('.dropdown-toggle').dropdownHover();
+    });
+</script>
+</body>
+</html>
